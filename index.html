@@ -1,18 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilo.css">
-    <script src="js/app.js" defer></script>
-    <title>Luz</title>
+
+    <title>Mi semáforo</title>
+
+    <!-- Conectar CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <h2>
-        Control de Iluminación</h2>
-    <div id="luz" class="apagada"></div>
-    <button id="btnLuz">
-        Encender
-    </button>
+
+    <h1>Mi semáforo</h1>
+
+    <div class="semaforo">
+        <div class="luz roja" id="roja"></div>
+        <div class="luz amarilla" id="amarilla"></div>
+        <div class="luz verde" id="verde"></div>
+    </div>
+
+    <p id="estado">Preparado</p>
+
+    <button id="iniciar">Iniciar semáforo</button>
+
+    <!-- Conectar JavaScript -->
+    <script src="js/app.js"></script>
+
 </body>
 </html>
